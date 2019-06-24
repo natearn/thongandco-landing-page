@@ -41,6 +41,12 @@ body {
     font-family: "Open Sans", Sans-serif;
 }
 
+/* The filter cannot be applied to the body becasue it
+   interferes with the behaviour of the sticky nav.  */
+body > * {
+  filter: grayscale(1);
+}
+
 h1,
 h2,
 h3,
