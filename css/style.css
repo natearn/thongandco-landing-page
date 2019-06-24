@@ -102,6 +102,10 @@ section {
 	color: #fff;
 	font-family: "Montserrat",sans-serif;
     padding: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  text-transform: uppercase;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
 	color: #fec503
